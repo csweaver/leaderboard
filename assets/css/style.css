@@ -1,0 +1,101 @@
+#content {
+	background-image: url('../img/janelia.jpg');
+	height: 700px;
+	width: 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 10px 0px;
+}
+.lb_item {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 20%;
+	margin-bottom: 20px;
+	height: 120px;
+	color: black;
+	box-sizing: content-box;
+}
+.team {
+	float: left;
+	width: 60%;
+	margin-right: 10%;
+	height: 110px;
+	padding: 5px;
+	background-color: rgba(220, 220, 220, 0.8);
+}
+.times {
+	float: left;
+	width: 27%;
+	height: 110px;
+	padding: 5px;
+	background-color:	rgba(220, 220, 220, 0.8);
+}
+.number {
+	float: left;
+	height: 110px;
+	font-size: 95px;
+	font-weight: bold;
+	line-height: normal;
+}
+.team-icon {
+	float: left;
+}
+.team-icon>img {
+	height: 110px;
+	width: 110px;
+	box-sizing: content-box;
+	line-height: normal;
+}
+.group-name {
+	width: 100%;
+	padding-top: 20px;
+	font-size: 30px;
+	font-weight: bold;
+	overflow: show;
+}
+.members {
+	width: 100%;
+	font-size: 16px;
+	color: #444;
+	padding-top: 10px;
+	font-weight: bold;
+	overflow: show;
+}
+.team-name {
+	width: 70%;
+	float: left;
+	margin-left: 5%;
+	font-weight: bold;
+	overflow: show;
+}
+.time {
+	font-size: 1.5em;
+	font-family: monospace;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.fastest {
+	color: green;
+	font-weight: bolder;
+	font-size: 2em;
+	background-color: rgba(255,255,255,0.65);
+}
+.max {
+	color: firebrick;
+}
+.incomplete {
+	color: #444;
+}
+#head {
+	text-align: center;
+	background-color: #2cb455;
+	margin: 0px;
+}
+h1 {
+	color: white;
+	margin: 0px;
+	padding: 10px;
+	font-size: 50px;
+	font-weight: bolder;
+}
