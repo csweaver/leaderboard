@@ -4,7 +4,7 @@ import {maxBy} from 'lodash/maxBy'
 
 
 const Time = (props) => {
-	return <div className={props.clss}>{props.content}</div>
+	return <div className={props.clss}>{props.lap}<span className='seconds'>{props.content}</span></div>
 
 }
 
@@ -39,8 +39,9 @@ const Times = (props) => {
 			clsName += "fastest "
 		}
 		let lap = i+1
-		let timeContent = `Lap ${lap}. ${time}`
-		times.push(<Time clss={clsName} content={timeContent} />)
+		let lapContent = `Lap ${lap} `
+		let timeContent = `${time}`
+		times.push(<Time clss={clsName} lap={lapContent} content={timeContent} />)
 	}
 	return (
 		<div className='times'>{times}</div>

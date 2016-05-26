@@ -70,7 +70,12 @@
 		return _react2.default.createElement(
 			'div',
 			{ className: props.clss },
-			props.content
+			props.lap,
+			_react2.default.createElement(
+				'span',
+				{ className: 'seconds' },
+				props.content
+			)
 		);
 	};
 
@@ -104,8 +109,9 @@
 				clsName += "fastest ";
 			}
 			var lap = i + 1;
-			var timeContent = 'Lap ' + lap + '. ' + time;
-			times.push(_react2.default.createElement(Time, { clss: clsName, content: timeContent }));
+			var lapContent = 'Lap ' + lap + ' ';
+			var timeContent = '' + time;
+			times.push(_react2.default.createElement(Time, { clss: clsName, lap: lapContent, content: timeContent }));
 		}
 		return _react2.default.createElement(
 			'div',
